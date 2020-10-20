@@ -40,3 +40,5 @@ kubectl apply -f .\istio.aks.yml -n istio-system
 
 ##############################################################
 
+# Open the Kiali dashboard
+istioctl dashboard kiali
